@@ -1,0 +1,155 @@
+{
+  "personal": {
+    "name": "Luciano Mobrice",
+    "role": "Analista de Operaciones & Negocios",
+    "tagline": "Transformo operaciones con datos e inteligencia artificial",
+    "location": "Buenos Aires, Argentina",
+    "email": "mobriceluciano@gmail.com",
+    "phone": "(11) 3038-1594",
+    "linkedin": "https://www.linkedin.com/in/lucianomobrice/",
+    "bio": "Licenciado en Comercialización con experiencia en análisis de negocio, estrategias comerciales y optimización de operaciones. En Tiendanube y Pago Nube me especialicé en la creación de soluciones efectivas para la adquisición y retención de clientes. Mi enfoque principal es la toma de decisiones basada en datos, implementando procesos eficientes e interpretando métricas clave que impulsan el crecimiento del producto."
+  },
+  "experience": [
+    {
+      "company": "Tiendanube / Pago Nube",
+      "role": "Analista de Operaciones y Negocios",
+      "period": "2023 - Actualidad",
+      "description": "Diseñé y estructuré el rol desde cero, estableciendo los fundamentos operativos y estratégicos. Implementé controles KYC, estrategias de adquisición y retención para SMBs, y desarrollé automatizaciones con IA para optimizar procesos operativos.",
+      "highlights": [
+        "Diseño del rol y definición de OKRs del equipo",
+        "Implementación de controles operativos automatizados con n8n + Databricks",
+        "Estrategias de negocio para reducción de churn y crecimiento de adopción",
+        "Colaboración interfuncional con marketing, ventas y tecnología"
+      ]
+    },
+    {
+      "company": "Tiendanube / Pago Nube",
+      "role": "Customer Support",
+      "period": "2020 - 2023",
+      "description": "Soporte al cliente con especialización en medios de pago y envíos. Primera persona en responder consultas sobre Pago Nube. Lideré proyectos incluyendo consultorías con Google.",
+      "highlights": [
+        "Primera persona en dar soporte sobre Pago Nube",
+        "Especialización en medios de pago y logística",
+        "Consultoría en alianza con Google",
+        "Buddy de nuevos ingresos al equipo"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Abierta Interamericana",
+      "degree": "Licenciado en Comercialización",
+      "period": "2018 - 2022"
+    }
+  ],
+  "certifications": [
+    "Google - Comercio Electrónico (2020)",
+    "Google - Productividad Personal (2020)"
+  ],
+  "skills": {
+    "business": ["Análisis de Negocios", "Estrategia Comercial", "KPIs & OKRs", "Reducción de Churn", "Adquisición de Clientes", "Business Cases"],
+    "technical": ["SQL", "Databricks", "n8n", "Python", "Tableau", "Google Sheets"],
+    "ai_tools": ["Cursor (AI IDE)", "Claude (Anthropic)", "ChatGPT", "n8n con IA"],
+    "platforms": ["Datadog", "Dynatrace", "HubSpot", "Slack", "GitHub", "Zendesk", "Redash"]
+  },
+  "projects": [
+    {
+      "id": "automations",
+      "title": "Automatización de Controles Operativos",
+      "category": "automation",
+      "tags": ["n8n", "Databricks", "SQL", "Slack", "Google Sheets", "HubSpot"],
+      "description": "Sistema de controles automatizados que corren diariamente para detectar anomalías operativas y notificar a los merchants y al equipo interno.",
+      "details": "Diseñé e implementé una suite completa de flujos automatizados en n8n que se conectan con Databricks (SQL), Google Sheets, HubSpot y Slack. Los controles incluyen: detección de pagos duplicados (órdenes con más de un cobro exitoso) con notificación automática al merchant vía HubSpot, monitoreo de retiros demorados, y control de cuotas con interés. Cada flujo corre en schedule, consulta la base de datos, transforma los resultados, actualiza un registro y envía alertas al canal de Slack del equipo.",
+      "impact": "Reducción significativa del tiempo de respuesta ante incidentes operativos. De procesos manuales que tomaban horas, pasamos a detección y notificación automática en minutos.",
+      "icon": "zap"
+    },
+    {
+      "id": "cuota-simple",
+      "title": "Cuota Simple",
+      "category": "strategy",
+      "tags": ["Regulación", "Implementación", "Scripts", "Control"],
+      "description": "Implementación del programa gubernamental Cuota Simple para tiendas de Pago Nube.",
+      "details": "Cuota Simple era un programa del gobierno argentino que permitía a tiendas inscriptas en ciertos rubros obtener una tarifa especial para ofrecer financiación en cuotas. Trabajé junto con el equipo técnico definiendo los criterios de implementación y luego desarrollé un control para verificar que todo funcionara correctamente, incluyendo scripts de validación.",
+      "impact": "Habilitación exitosa del programa para los merchants elegibles, generando un diferencial competitivo frente a otras plataformas de pago.",
+      "icon": "credit-card"
+    },
+    {
+      "id": "habilitacion-industrias",
+      "title": "Habilitación de Industrias",
+      "category": "strategy",
+      "tags": ["Business Case", "Análisis de Datos", "Adopción"],
+      "description": "Business case para dimensionar y habilitar industrias previamente restringidas en la plataforma.",
+      "details": "Desarrollé un business case completo para dimensionar el volumen de las industrias que no permitíamos operar en Pago Nube, como sex shop y alcohol. El análisis incluyó estimación de mercado, evaluación de riesgos y proyección de adopción para justificar la liberación.",
+      "impact": "Más del 7% de adoption rate gracias a la liberación de nuevas industrias. Apertura de nuevos segmentos de mercado para Pago Nube.",
+      "icon": "unlock"
+    },
+    {
+      "id": "migracion-mshops",
+      "title": "Migración de Mercado Shops",
+      "category": "strategy",
+      "tags": ["Análisis", "Detección Automática", "Retención"],
+      "description": "Estrategia de captación de tiendas provenientes de Mercado Shops tras su deprecación por MELI.",
+      "details": "Con el anuncio de MercadoLibre de deprecar Mercado Shops, desarrollé un análisis de tiendas migrantes y un control automático que detectaba tiendas nuevas que anteriormente habían operado en Mercado Shops. El objetivo era ofrecerles Pago Nube con beneficios especiales y evitar que siguieran usando exclusivamente Mercado Pago.",
+      "impact": "Captación proactiva de merchants en transición, incrementando la base de usuarios de Pago Nube con clientes que ya tenían experiencia en e-commerce.",
+      "icon": "arrow-right-circle"
+    },
+    {
+      "id": "analisis-financiacion",
+      "title": "Análisis de Financiación",
+      "category": "analytics",
+      "tags": ["Competencia", "Pricing", "Análisis Mensual"],
+      "description": "Control mensual de tarifas de la competencia para mantener la competitividad de Pago Nube.",
+      "details": "Implementé un proceso de análisis mensual que controla los merchants a los que Mercado Pago les ofrece tarifas más baratas. Esto permite evaluar la posibilidad de igualar o mejorar la propuesta comercial de Pago Nube para retener merchants.",
+      "impact": "Capacidad de respuesta rápida ante movimientos de la competencia, contribuyendo a la reducción del churn por motivos de pricing.",
+      "icon": "trending-up"
+    },
+    {
+      "id": "incorporacion-d1",
+      "title": "Incorporación D1",
+      "category": "analytics",
+      "tags": ["Análisis", "Seguridad", "Adopción", "Competencia"],
+      "description": "Análisis para habilitar D1 (cobro inmediato) a merchants que no tenían esta opción.",
+      "details": "Para todos los merchants que no tenían la posibilidad de ofrecer D1 (liquidación en el día), desarrollé un análisis que evaluaba qué ofrecía la competencia y si el merchant cumplía con criterios de seguridad suficientes para habilitarlo.",
+      "impact": "Mayor adoption de D1 en la plataforma, mejorando la propuesta de valor de Pago Nube frente a la competencia.",
+      "icon": "clock"
+    },
+    {
+      "id": "crystal-ball",
+      "title": "Crystal Ball",
+      "category": "ai",
+      "tags": ["IA", "Detección Automática", "Compliance", "Prevención"],
+      "description": "Sistema con IA para detectar tiendas con productos no permitidos antes de que generen fricción.",
+      "details": "Crystal Ball es un sistema basado en inteligencia artificial que analiza las tiendas y detecta aquellas que comercializan productos no permitidos en la plataforma. El objetivo es actuar preventivamente, evitando que estas tiendas operen con Pago Nube y generen fricción después del onboarding.",
+      "impact": "Detección preventiva de tiendas riesgosas, reduciendo la fricción post-activación y protegiendo la integridad de la plataforma.",
+      "icon": "eye"
+    },
+    {
+      "id": "ops-dashboard",
+      "title": "Dashboard de Operaciones",
+      "category": "automation",
+      "tags": ["Next.js", "Databricks", "SQL", "Vercel", "TypeScript"],
+      "description": "Dashboard web en tiempo real para monitorear controles operativos de Pago Nube.",
+      "details": "Desarrollé un dashboard con Next.js desplegado en Vercel que se conecta directamente a Databricks para visualizar en tiempo real los controles operativos: retiros demorados, cuotas con interés, y métricas generales de operaciones. Incluye tablas de datos interactivas y KPIs en vivo.",
+      "impact": "Visibilidad centralizada del estado operativo, eliminando la necesidad de revisar múltiples fuentes de datos manualmente.",
+      "icon": "layout-dashboard"
+    },
+    {
+      "id": "ai-workspace",
+      "title": "Workspace de IA para Operaciones",
+      "category": "ai",
+      "tags": ["Cursor", "Claude", "n8n", "Databricks", "Automatización"],
+      "description": "Ecosistema completo de herramientas de IA aplicadas a operaciones del día a día.",
+      "details": "Construí un workspace completo que integra Cursor (AI IDE) con contexto del negocio, Claude para análisis complejos, y n8n para automatizaciones. El workspace incluye reglas de negocio, documentación contextual, skills personalizados y conexión directa a Databricks para consultas SQL asistidas por IA.",
+      "impact": "Multiplicación de la productividad del equipo de operaciones. Tareas que tomaban horas de análisis manual ahora se resuelven en minutos con asistencia de IA.",
+      "icon": "brain"
+    }
+  ],
+  "volunteering": [
+    {
+      "organization": "Pacto Emprendedor",
+      "role": "Mentor",
+      "period": "2021",
+      "description": "Mentor y ayudante de un emprendimiento a través del programa Pacto Emprendedor."
+    }
+  ]
+}
